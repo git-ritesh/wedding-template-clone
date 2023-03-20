@@ -90,6 +90,7 @@ img {
   padding: 20px 23px;
   border-radius: 4px;
   margin-bottom: 80px;
+  transition: background-color 0.5s, color 0.5s;
 }
 .wedding-button:hover, .invite-response-btn:hover {
   cursor: pointer;
@@ -177,6 +178,7 @@ img {
   border-radius: 4px;
   background-color: #f88078;
   padding: 18px 60px;
+  transition: background-color 0.3s, color 0.3s;
 }
 
 .footer {
@@ -205,6 +207,7 @@ img {
 .nav-rsvp {
   padding: 10px 150px;
   margin: 0 11px;
+  transition: background-color 0.8s, padding 0.8s, opacity 0.8s;
 }
 
 .nav-home:hover,
@@ -214,6 +217,7 @@ img {
   background-color: grey;
   padding: 10px 150px;
   opacity: 0.9;
+  
 }
 
 .navbar-links {
