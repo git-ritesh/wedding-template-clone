@@ -1,0 +1,223 @@
+/* imports fonts */
+@font-face {
+  font-family: 'Raleway';
+  src: url(https://fonts.gstatic.com/s/raleway/v28/1Ptxg8zYS_SKggPN4iEgvnHyvveLxVvaorCIPrE.woff2);
+}
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Raleway';
+  text-align: center;
+}
+html {
+  background-color: #f3e2e2 ;
+}
+
+img {
+  filter: grayscale(50%);
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  
+}
+/* Home Properties */
+
+.header-background, .background-img2 {
+  
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height:700px;
+  text-align: center;
+}
+.header-background {
+  background-image: url(https://www.w3schools.com/w3images/wedding_couple.jpg);
+  filter: grayscale(50%);
+}
+
+.header-texts {
+  font-weight: 400;
+  font-size: 30px;
+  letter-spacing: 4px;
+  color: white;
+  position: relative;
+  text-align: center;
+  margin: -440px 0 440px 0;
+}
+#header-heading {
+  font-size: 64px ;
+  margin: 0 0 25px 0;
+}
+.header-txt {
+  
+  margin: 0 0 20px 0;
+}
+.header-date {
+  font-weight: 700;
+}
+
+/* About CSS Properties */
+.about-name {
+  color: rgb(114, 114, 114);
+  font-weight: bold;
+  text-align: center;
+  font-size: 36px;
+  margin: -108px 0 45px 0 ;
+}
+
+.about-img, .dining-area-img {
+  width: 980px;
+  border-radius: 4px;
+}
+
+.about-txt {
+  margin: 45px auto ;
+  font-size: 15px;
+  line-height: 2;
+  width: 980px;
+  text-align: left;
+}
+
+.wedding-btn {
+  text-align: center;
+}
+.wedding-button {
+  font-size: 18px;
+  color: white;
+  background-color: black;
+  border: none;
+  padding: 20px 23px;
+  border-radius: 4px;
+  margin-bottom: 80px;
+}
+.wedding-button:hover, .invite-response-btn:hover {
+  cursor: pointer;
+  background-color: rgb(190, 190, 190);
+  color: black;
+}
+
+.invitation-panel {
+  text-align: center;
+}
+.background-img2 {
+  background-image: url(https://www.w3schools.com/w3images/flowers.jpg);
+}
+
+.invitation-text {
+  margin: -430px 0 430px 0;  
+}
+
+.invited-text {
+  font-size: 64px;
+  color: white;
+  margin-bottom: 56px;
+}
+.invited-small-txt {
+  font-size: 30px;
+  color: white;
+  margin-bottom: 0;
+}
+
+.the-wedding {
+  text-align: center;
+  color: #757575;
+}
+
+.the-wedding-txt {
+  margin: -80px 0 80px 0;
+  font-size: 36px ;
+  font-weight: bold;
+}
+
+.dining-area-img {
+  margin-bottom: 80px;
+}
+.venue {
+  display: flex;
+  margin-left: 440px;
+  text-align: center;
+  margin-bottom: 80px;
+}
+.where{
+  margin-left: 250px;
+}
+.venue-heading {
+  font-size: 30px;
+  margin-bottom: 15px;
+}
+.venue-txt {
+  font-size: 15px;
+  line-height: 3;
+}
+
+.invite-response {
+  padding: 50px 0 100px 0 ;
+  background-color: #ffdddd;
+}
+.invite-response-h1, .invite-response-h3 {
+  letter-spacing: 4px;
+  font-weight: 400;
+}
+
+.invite-response-h1 {
+  font-size: 35px;
+  margin: 0 0 30px 0;
+}
+
+.invite-response-h3 {
+  font-size: 17.5px;
+  margin: 0 0 30px 0;
+}
+
+.invite-response-btn {
+  color: white;
+  font-size: 24px;
+  border: none;
+  border-radius: 4px;
+  background-color: #f88078;
+  padding: 18px 60px;
+}
+
+.footer {
+  padding: 36px;
+  font-size: 15px;
+  color: white;
+  background-color: black;
+  margin-bottom: 50px;
+}
+
+
+.navbar {
+  display: flex;
+  overflow: hidden;
+  width: 100%;
+  background-color: #fff;
+  position: fixed;
+  bottom: 0;
+  padding: 5px 0px;
+  opacity: 0.8;
+}
+
+.nav-home,
+.nav-couples,
+.nav-wedding,
+.nav-rsvp {
+  padding: 10px 150px;
+  margin: 0 11px;
+}
+
+.nav-home:hover,
+.nav-couples:hover,
+.nav-wedding:hover,
+.nav-rsvp:hover {
+  background-color: grey;
+  padding: 10px 150px;
+  opacity: 0.9;
+}
+
+.navbar-links {
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
+}
